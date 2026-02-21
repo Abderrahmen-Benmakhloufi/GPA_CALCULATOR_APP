@@ -1,0 +1,58 @@
+name: mo3adel_university
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.1
+  google_generative_ai: ^0.4.7
+  flutter_markdown: ^0.7.7+1
+  flutter_tex: ^5.2.4
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
+
+  
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/Rubik-VariableFont_wght.ttf
+        - asset: assets/Rubik-Italic-VariableFont_wght.ttf
+          style: italic
+    - family: Tajawal
+      fonts:
+        - asset: assets/Tajawal-ExtraLight.ttf
+          weight: 200
+        - asset: assets/Tajawal-Light.ttf
+          weight: 300
+        - asset: assets/Tajawal-Regular.ttf
+          weight: 400
+        - asset: assets/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/Tajawal-Bold.ttf
+          weight: 700
+        - asset: assets/Tajawal-ExtraBold.ttf
+          weight: 800
+        - asset: assets/Tajawal-Black.ttf
+          weight: 900
