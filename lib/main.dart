@@ -4,6 +4,9 @@ import 'screens/theappbody.dart';
 import 'screens/aboutus.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 
+////this small app was built by Abderrahmen Benmakhloufi.
+//a beginner App developer.
+
 void main() {
   timeDilation = 2.0;
   runApp(const Calc());
